@@ -1,9 +1,6 @@
-        using Microsoft.AppCenter;
-        using Microsoft.AppCenter.Analytics;
-        <Application x:Class="Moonlight.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"	xmlns:local="using:Moonlight">
+ <Application x:Class="Moonlight.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"	xmlns:local="using:Moonlight">
         <Application.Resources>
         <ResourceDictionary>
-            AppCenter.Start("e39f7a22-6ec3-4e25-88c5-796c4515b5d9", typeof(Analytics));
             <!--After selection - Background-->
             <SolidColorBrush x:Key="ListViewItemSelectedBackgroundThemeBrush" Color="Green"></SolidColorBrush>
         </ResourceDictionary>
